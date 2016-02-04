@@ -1,0 +1,219 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body p, li, span {
+	font-family: Roboto;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	background-color: #fff;
+	opacity: 0.95; 
+
+}
+ .logo img{
+ 	width: 360px;
+ 	height: 50px;
+ }
+
+ header p {
+ 	font-size: 12px; 
+ 	margin: 18px 30px 5px -5px;
+
+ }
+
+
+ .buscador {
+ 	border: 1px solid;
+ 	width: 200px;
+ 	margin: auto;
+ 	margin-top: 3px;
+ 	padding: 8px;
+ }
+
+ input{
+ 	border-style: none;
+ 	width: 160px;
+
+ }
+
+  .buscador span{
+  	text-align: right;
+  	display: inline-block;
+  }
+
+ .moviepre {
+	background: linear-gradient(left right, #fff, #383838);
+	background-image: url("../img/banner.jpg");
+	background-position: left top;
+    background-repeat: no-repeat;
+	background-color: #383838;
+	background-size: 70% auto;
+}
+
+.moviepre img {
+	height: 65px;
+	margin-left: 200px;
+	margin-top: 210px;
+
+}
+
+.big h1 {
+	font-size: 30px;
+	margin-left: 10px;
+}
+.big {
+	font-size: 10px;
+	color: #D3D3D3;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+.all {
+	margin-top: 20px;
+}
+
+.all span{
+	border: 2px solid #3AA55A;
+	color: #3AA55A;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 10px;
+	border-radius: 8%;	
+}
+
+.moviepre span+p {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.moviepre li {
+	list-style: none;
+	padding-bottom: 12px;
+	white-space: pre;
+}
+
+.moviepre li span {
+	font-weight: bold;
+}
+
+
+.boton {
+	padding: 10px;
+	border-radius: 5px;
+	width: 40%;
+	margin: 10px;
+	margin-left: 0px;
+	color: #fff;
+}
+
+.font12 {
+	font-size: 12px;
+}
+
+.amarillo {
+	background-color: #DFB636;
+}
+
+.naranja {
+	background-color: #BB7B29;
+}
+
+.lista6 {
+	background-color: #DFB636;
+}
+
+.lista6 img {
+	width: 175px;
+	height: 200px;
+}
+
+.lista6 .col-2 {
+	padding: 25px 10px;
+}
+
+.video iframe {
+	width: 100%;
+	height: 300px;
+	border-style: none;
+	
+}
+
+
+.noticias .col-6 {
+	margin-left: 20px;
+	margin-right: -35px;
+	display: inline-block;
+	
+}
+
+.noticias p {
+	margin-bottom: 15px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.text-mdn {
+	font-size: 20px;
+}
+
+.text-pq {
+	font-size: 11px;
+}
+
+.font10 {
+	font-size: 10px;
+	line-height: 130%;
+	white-space: pre-line;
+}
+.nointerl {
+	white-space: pre-line;
+	line-height: 90%;
+}
+
+.noticias .boton {
+	width: 25%;
+	height: 70px;
+	padding-top: 28px;
+}
+
+.noticias .boton p {
+	margin: auto;
+}
+
+
+.descuento {
+	color:#C79355;
+	font-size: 12px;
+}
+
+.more {
+	color: #DFB636;
+	font-size: 11px;
+}
+
+
+.lista4 img {
+	width: 260px;
+	height: 260px;
+}
+
+.lista4 .col-3 {
+	padding: 25px 0px;
+
+}
+
+.lista4 {
+	padding:0px 20px;
+}
+
+footer {
+	background-color: #F3F3F3;
+}
+
+/* background: url( /jQuery/mypage/img/background1.png )
